@@ -1,0 +1,188 @@
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.photo {
+    width: 100%;
+}
+.photo__block {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col_sales, .col_sales:last-child {
+    max-width: 100%;
+    margin: 0 25px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #bbb;
+    padding: 25px;
+}
+.photo__button {
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px #d6d6d6;
+    border: none;
+}
+.photo__buttonBox {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    max-width: 60%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+#start__camera {
+    color: red;
+    position: relative;
+}
+.photo__button-redball {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 27%;
+}
+.photo__message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: #bbb;
+    border-radius: 2px;
+    color: #424242;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#take__photo , #take__upload , #close__camera {
+    display: none;
+    border-radius: 60px;
+    background-color: #FFF;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.photo__button-icon {
+    transform: translate(0%, -3%);
+}
+    
+#video {
+    display: none;
+    width:  100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.photo__canvas {
+    display: none;
+    height: auto;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo__noise {
+    border-radius: 2px;
+}
+.other__container {
+    padding-top: 0px;
+    height: 100%;
+    width: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #1f1f1f;
+    box-shadow: 0px 0px 1px 200px #1f1f1f;
+    position: fixed;
+    border-radius: 0%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.control__bat {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #000000a0;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 12px #060606;
+    bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    width: 70%;
+    z-index: 2;
+}
+.photo__warning-mobile {
+    display: none;
+}
+.form-control {
+    max-width: 100%;
+    display: block;
+}
+.mb-3 {
+    display: none;
+}
+@media screen and (max-width: 615px) {
+    .col_sales {
+        margin-bottom: 20px;
+    }
+
+    .col_sales, .col_sales:last-child, .panel_table__row {
+        display: block;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .photo__input {
+        display: block;
+    }
+    .photo__warning {
+        display: none;
+    }
+    .photo__warning-mobile {
+        display: block;
+    }
+    #start__camera {
+        display: none;
+    }
+    .file_input_btn {
+        display: block;
+    }
+    .mb-3 {
+        display: block;
+    }
+    .photo__block {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
