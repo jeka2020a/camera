@@ -1,10 +1,5 @@
-body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-.photo__button-redball2 {
+.photo__button-redball1 {
     display: block;
     position: absolute;
     width: 15px;
@@ -25,23 +20,11 @@ body {
         opacity: 1;
     }
     100% {
-        opacity: 0;
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 }
 
-.photo__button-redball2::after {
-    content: " ";
-    position: absolute;
-    top: -5px;
-    bottom: -5px;
-    left: -5px;
-    right: -5px;
-    border-radius: 60%;
-    border: 5px solid red;
-    opacity: 0;
-    animation: middle 1s linear infinite;
-}
+
 .photo__button-redball2::after {
     animation-duration: 2s;
 }
