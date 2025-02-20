@@ -6,9 +6,14 @@
     height: 15px;
     background-color: red;
     border-radius: 50%;
-    position: absolute;
-    right: 5px;
-    top: 35%;
+    
+    color: red;
+
+    
+    /*
+    ,svl,sdv,;sdscs;c;'sdcv
+    ;,S;;SDVCV;LSDVV'sdc S'DC
+    */
 }
 
 @keyframes middle {
