@@ -3,32 +3,6 @@ body {
     padding: 0;
     margin: 0;
 }
-.file_input_btn {
-    display: block;
-    padding-right: 40px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    max-width: 200px;
-    margin-top: 25px;
-    padding-left: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 15px;
-    box-shadow: 0px 0px 5px #d6d6d6;
-    border: none;
-    position: relative;
-    color: red;
-    line-height: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/*
-.file_input_btn input {
-    display: none
-}*/
 
 .photo__button-redball2 {
     display: block;
